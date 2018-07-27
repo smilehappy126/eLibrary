@@ -1,0 +1,147 @@
+﻿@model eLibrary.Models.BookData
+@{
+    ViewBag.Title = "editBookData";
+}
+<div class="container">
+    <label class="titleLabel">編輯書籍</label>
+    <form action="/Book/UpdateBookData" method="post">
+        <table class="table-bordered">
+            <tr>
+                <td class="addFor">書名</td>
+                <td class="addContent">
+                    <input class="k-textbox" id="formBookName" type="text" name="BOOK_NAME" required="required" validationMessage="請輸入書名">
+                </td>
+            </tr>
+            <tr>
+                <td class="addFor">作者</td>
+                <td class="addContent">
+                    <input class="k-textbox" id="formBookAuthor" type="text" name="BOOK_AUTHOR" required="required" validationMessage="請輸入作者">
+                </td>
+            </tr>
+            <tr>
+                <td class="addFor">出版商</td>
+                <td class="addContent">
+                    <input class="k-textbox" id="formBookPublisher" type="text" name="BOOK_PUBLISHER" required="required" validationMessage="請輸入出版商">
+                </td>
+            </tr>
+            <tr>
+                <td class="addFor">內容簡介</td>
+                <td class="addContent">
+                    <textarea class="k-textbox" id="formBookNote" name="BOOK_NOTE" required  validationMessage="請輸入簡介"></textarea>
+                    @*<input class="k-textbox" id="formBookNote" type="text" name="BOOK_NOTE" required="required" validationMessage="請輸入簡介">*@
+                </td>
+            </tr>
+            <tr>
+                <td class="addFor">購書日期</td>
+                <td class="addContent">
+                    <input id="editBoughtDatePicker" name="BOOK_BOUGHT_DATE" required="required" validationMessage="請輸入購買日期">
+                </td>
+            </tr>
+            <tr>
+                <td class="addFor">圖書類別</td>
+                <td class="addContent">
+                    <input id="bookClassList" name="BOOK_CLASS_ID" required="required" validationMessage="請選擇類別">
+                </td>
+            </tr>
+            <tr>
+                <td class="addFor">借閱狀態</td>
+                <td class="addContent">
+                    <input id="bookStatusList" name="BOOK_STATUS" required="required" validationMessage="請選擇借閱狀態">
+                </td>
+            </tr>
+            <tr>
+                <td class="addFor">借閱人</td>
+                <td class="addContent">
+                    <input id="bookKeeperList" name="BOOK_KEEPER" validationMessage="請選擇借閱人">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="addFor">
+                    <a class="k-button" href="/Book/Index">回前一頁</a>
+                    <button class="k-button" id="deleteBookBtn" type="button">刪除</button>
+                    @*<button class="k-button" id="deleteBookBtn" type="button" data-toggle="modal" data-target="#deleteModal">刪除</button>*@
+                    <button class="addBookBtn k-button" id="addBookBtn" type="submit">存檔</button>
+                </td>
+            </tr>
+        </table>
+        <!-- 傳遞BOOK_ID變數 -->
+        <input id="editBookID" name="BOOK_ID" style="display:none;">
+    </form>
+</div>
+
+@*<!-- Delete Modal -->
+<div id="deleteModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <label class="deleteModalTitle" style="color: red; font-family: 'Microsoft JhengHei'; font-size: 40px;">刪除書籍</label>
+            <div class="modal-body">
+                <table class="table" style="table-layout:fixed">
+                    <tr>
+                        <td class="addContent">書名</td>
+                        <td class="addContent">
+                            <input class="form-control" id="modalBookName" type="text" disabled />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="addContent">作者</td>
+                        <td class="addContent">
+                            <input class="form-control" id="modalBookAuthor" type="text" disabled />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="addContent">出版商</td>
+                        <td class="addContent">
+                            <input class="form-control" id="modalBookPublisher" type="text" disabled />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="addContent">內容簡介</td>
+                        <td class="addContent">
+                            <input class="form-control" id="modalBookNote" type="text" disabled />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="addContent">購書日期</td>
+                        <td class="addContent">
+                            <input class="form-control" id="modalBookBoughtDate" type="text" disabled />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="addContent">圖書類別</td>
+                        <td class="addContent">
+                            <input class="form-control" id="modalBookClassID" type="text" disabled />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="addContent">借閱狀態</td>
+                        <td class="addContent">
+                            <input class="form-control" id="modalBookStatus" type="text" disabled />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="addContent">借閱人</td>
+                        <td class="addContent">
+                            <input class="form-control" id="modalBookKeeper" type="text" disabled />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="modalButtonSection">
+                <form action="/Book/DeleteBookData/@ViewBag.BookID" method="post">
+                    <button class="btn btn-default" id="confirmDeleteBtn" type="submit"><span class="glyphicon glyphicon-trash"></span>&nbsp;確認刪除</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+            </div>
+            
+        </div>
+
+    </div>
+</div>*@
+

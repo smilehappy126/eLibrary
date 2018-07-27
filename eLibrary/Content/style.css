@@ -1,0 +1,80 @@
+﻿    .container{
+        text-align:center;
+    }
+    .titleLabel{
+        font-family:'Microsoft JhengHei';
+        font-size:40px;
+        font-weight:bolder;
+    }
+    .table-bordered{
+        width: 100%;
+    }
+    .searchFor{
+        text-align:right;
+        width:40%;
+        font-family: 'Microsoft JhengHei';
+        font-size: 20px;
+        font-weight:bolder;
+    }
+    .searchContent{
+        text-align:left;
+        font-family: 'Microsoft JhengHei';
+        font-size: 20px;
+        font-weight:bolder;
+    }
+    .addFor{
+        text-align:right;
+        width:40%;
+        font-family: 'Microsoft JhengHei';
+        font-size: 20px;
+        font-weight:bolder;
+    }
+    .addContent{
+        text-align:left;
+        font-family: 'Microsoft JhengHei';
+        font-size: 20px;
+        font-weight:bolder;
+    }
+    .moveToAddPage{
+        display:inline;
+    }
+    .addBookBtn{
+        font-family: 'Microsoft JhengHei';
+        font-size: 20px;
+        font-weight:bolder;
+    }
+    .tableHead{
+        text-align:center;
+        font-family:'Microsoft JhengHei';
+        font-size:20px;
+        font-weight:bolder;
+    }
+    .linkArea{
+        position:absolute;
+        margin-top:1%;
+        margin-left:20%;
+    }
+    .rollbackBtn{
+        width: 100px;
+        background-color: #0066FF;
+        color:white;
+        border-width:0px;
+        border-radius:10px;
+        transition:0.3s;
+        cursor:pointer;
+        font-family:'Microsoft JhengHei';
+        font-size:20px;
+    }
+    .rollbackBtn:hover{
+        transition:0.3s;
+        width: 120px;
+        background-color:#0044BB;
+    }
+    #deleteModalTitle{
+        color: red;
+        font-family: 'Microsoft JhengHei';
+        font-size: 40px;
+    }
+    .modalButtonSection{
+        text-align:center;
+    }

@@ -1,0 +1,62 @@
+﻿@{
+    ViewBag.Title = "showAddPage";
+}
+
+<div class="container">
+    <div class="linkArea">
+        <form action="/Book/Index" method="get">
+            <button class="rollbackBtn"><span class="glyphicon glyphicon-chevron-left"></span>返回</button>
+        </form>
+    </div>
+    <label class="titleLabel">新增書籍</label>
+    <form action="/Book/CreateNewBook" method="post">
+        <table class="table-bordered">
+            <tr>
+                <td class="addFor">書名</td>
+                <td class="addContent">
+                    <input class="form-control k-textbox" type="text" name="BOOK_NAME" required="required"  validationMessage="請輸入書名">
+                </td>
+            </tr>
+            <tr>
+                <td class="addFor">作者</td>
+                <td class="addContent">
+                    <input class="form-control k-textbox" type="text" name="BOOK_AUTHOR" required="required"  validationMessage="請輸入作者">
+                </td>
+            </tr>
+            <tr>
+                <td class="addFor">出版商</td>
+                <td class="addContent">
+                    <input class="form-control k-textbox" type="text" name="BOOK_PUBLISHER" required="required"  validationMessage="請輸入出版商">
+                </td>
+            </tr>
+            <tr>
+                <td class="addFor">內容簡介</td>
+                <td class="addContent">
+                    <textarea class="form-control k-textbox" name="BOOK_NOTE" required="required"  validationMessage="請輸入內容簡介"></textarea>
+                    @*<input class="form-control k-textbox" type="text" name="BOOK_NOTE" required="required"  validationMessage="請輸入內容簡介">*@
+                </td>
+            </tr>
+            <tr>
+                <td class="addFor">購書日期</td>
+                <td class="addContent">
+                    <input  id="boughtDatePicker" name="BOOK_BOUGHT_DATE" required="required"  validationMessage="請輸入購買日期">
+                </td>
+            </tr>
+            <tr>
+                <td class="addFor">圖書類別</td>
+                <td class="addContent">
+                    <input  id="bookClassPicker" name="BOOK_CLASS_ID" validationMessage="請選擇類別">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="addContent">
+                    <button class="addBookBtn k-button" id="addBookBtn" type="submit">存檔</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+
+

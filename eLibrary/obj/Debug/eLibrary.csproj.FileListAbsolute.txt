@@ -1,0 +1,105 @@
+C:\Ru\eLibrary\eLibrary\bin\roslyn\csc.exe
+C:\Ru\eLibrary\eLibrary\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Ru\eLibrary\eLibrary\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Ru\eLibrary\eLibrary\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Ru\eLibrary\eLibrary\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Ru\eLibrary\eLibrary\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Ru\eLibrary\eLibrary\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Ru\eLibrary\eLibrary\bin\roslyn\System.Collections.Immutable.dll
+C:\Ru\eLibrary\eLibrary\bin\roslyn\System.Reflection.Metadata.dll
+C:\Ru\eLibrary\eLibrary\bin\roslyn\vbc.exe
+C:\Ru\eLibrary\eLibrary\bin\roslyn\VBCSCompiler.exe
+C:\Ru\eLibrary\eLibrary\bin\roslyn\VBCSCompiler.exe.config
+C:\Ru\eLibrary\eLibrary\bin\eLibrary.dll.config
+C:\Ru\eLibrary\eLibrary\bin\eLibrary.dll
+C:\Ru\eLibrary\eLibrary\bin\eLibrary.pdb
+C:\Ru\eLibrary\eLibrary\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Ru\eLibrary\eLibrary\bin\Microsoft.Web.Infrastructure.dll
+C:\Ru\eLibrary\eLibrary\bin\System.Web.Helpers.dll
+C:\Ru\eLibrary\eLibrary\bin\System.Web.Mvc.dll
+C:\Ru\eLibrary\eLibrary\bin\System.Web.Razor.dll
+C:\Ru\eLibrary\eLibrary\bin\System.Web.Webpages.Deployment.dll
+C:\Ru\eLibrary\eLibrary\bin\System.Web.Webpages.dll
+C:\Ru\eLibrary\eLibrary\bin\System.Web.Webpages.Razor.dll
+C:\Ru\eLibrary\eLibrary\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Ru\eLibrary\eLibrary\bin\System.Web.Razor.xml
+C:\Ru\eLibrary\eLibrary\bin\System.Web.Webpages.xml
+C:\Ru\eLibrary\eLibrary\bin\System.Web.Webpages.Deployment.xml
+C:\Ru\eLibrary\eLibrary\bin\System.Web.Webpages.Razor.xml
+C:\Ru\eLibrary\eLibrary\bin\System.Web.Helpers.xml
+C:\Ru\eLibrary\eLibrary\bin\System.Web.Mvc.xml
+C:\Ru\eLibrary\eLibrary\obj\Debug\eLibrary.csprojResolveAssemblyReference.cache
+C:\Ru\eLibrary\eLibrary\obj\Debug\eLibrary.dll
+C:\Ru\eLibrary\eLibrary\obj\Debug\eLibrary.pdb
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\roslyn\csc.exe
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\roslyn\System.Collections.Immutable.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\roslyn\System.Reflection.Metadata.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\roslyn\vbc.exe
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\roslyn\VBCSCompiler.exe
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\roslyn\VBCSCompiler.exe.config
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\eLibrary.dll.config
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\eLibrary.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\eLibrary.pdb
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\eLibrary.Model.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\eLibrary.Service.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\log4net.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\Microsoft.Web.Infrastructure.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\System.Web.Helpers.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\System.Web.Mvc.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\System.Web.Razor.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\System.Web.Webpages.Deployment.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\System.Web.Webpages.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\System.Web.Webpages.Razor.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\eLibrary.Dao.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\eLibrary.Model.pdb
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\eLibrary.Service.pdb
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\log4net.xml
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\System.Web.Razor.xml
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\System.Web.Webpages.xml
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\System.Web.Webpages.Deployment.xml
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\System.Web.Webpages.Razor.xml
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\System.Web.Helpers.xml
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\System.Web.Mvc.xml
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\eLibrary.Dao.pdb
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\zh-Hant\System.Web.Razor.resources.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\zh-Hant\System.Web.Webpages.resources.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\zh-Hant\System.Web.Webpages.Deployment.resources.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\zh-Hant\System.Web.Webpages.Razor.resources.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\zh-Hant\System.Web.Helpers.resources.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\zh-Hant\System.Web.Mvc.resources.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\obj\Debug\eLibrary.csprojResolveAssemblyReference.cache
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\obj\Debug\eLibrary.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\obj\Debug\eLibrary.pdb
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\Common.Logging.Core.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\Common.Logging.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\eLibrary.Common.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\Spring.Core.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\Spring.Web.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\Spring.Web.Mvc5.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\eLibrary.Common.pdb
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\Common.Logging.pdb
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\Common.Logging.xml
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\Common.Logging.Core.pdb
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\Common.Logging.Core.xml
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\Spring.Core.pdb
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\Spring.Core.xml
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\Spring.Web.pdb
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\Spring.Web.xml
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\Spring.Web.Mvc5.pdb
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\Spring.Web.Mvc5.xml
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\Newtonsoft.Json.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\System.Net.Http.Formatting.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\System.Web.Http.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\System.Web.Http.WebHost.dll
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\Newtonsoft.Json.xml
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\System.Net.Http.Formatting.xml
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\System.Web.Http.xml
+C:\Ru\Course 6 Backend\eLibrary\eLibrary\bin\System.Web.Http.WebHost.xml

@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<div class="container"> 
+    <label class="titleLabel">圖書維護</label>
+        <table class="table-bordered">
+            <tr>
+                <td class="searchFor">書名</td>
+                <td class="searchContent">
+                    <input class="searchField k-textbox" id="searchName" type="text" name="searchName" />
+                </td>
+            </tr>
+            <tr>
+                <td class="searchFor">圖書類別</td>
+                <td class="searchContent">
+                    <input class="searchField"  id="searchClass" name="searchClass" />
+                </td>
+            </tr>
+            <tr>
+                <td class="searchFor">借閱人</td>
+                <td class="searchContent">
+                    <input class="searchField" id="searchUser" name="searchUser" />
+                </td>
+            </tr>
+            <tr>
+                <td class="searchFor">借閱狀態</td>
+                <td class="searchContent">
+                    <input class="searchField" id="searchStatus" name="searchStatus" />
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="searchContent">
+                    <button class="functionBtn k-button" id="searchBtn" type="submit">查詢</button>
+                    <button class="functionBtn k-button" id="cleanBtn" type="button">清除</button>
+                    <form class="moveToAddPage" action="/Book/AddNewBook" method="get">
+                        <button class="functionBtn k-button" id="addBtn" type="submit">新增</button>
+                    </form>
+                </td>
+            </tr>
+        </table>
+
+    <div id="bookGrid"></div>
+
+    
+</div >
